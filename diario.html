@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <!-- Meta tags per responsività -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diario - Esperienza di Stage</title>
+  <!-- Link al CSS esterno -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ================================================
+       MENU DI NAVIGAZIONE PRINCIPALE
+       ================================================ -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chi-siamo.html">L'Azienda</a></li>
+      <li><a href="mansioni.html">Mansioni</a></li>
+      <li><a href="diario.html">Diario</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Il Mio Diario di Stage</h1>
+    <p style="text-align: center; color: #666; font-style: italic;">
+      Un racconto personale della mia avventura nel mondo del lavoro
+    </p>
+
+    <!-- ================================================
+         SEZIONE 1: "TOP DAY" - GIORNATA SPECIALE
+         Card speciale con design gradiente per evidenziare
+         il momento più significativo dello stage
+         ================================================ -->
+    <!-- Top Day Feature -->
+    <section>
+      <div class="top-day-card">
+        <h2>⭐ Giornata Speciale: "Primo Deploy in Produzione"</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
+          <figure>
+            <img src="https://via.placeholder.com/400x300?text=Primo+Deploy" alt="Primo Deploy Produzione" style="max-width: 100%; border-radius: 10px;">
+            <figcaption style="color: rgba(255,255,255,0.9);">Il monitor con il deploy in corso</figcaption>
+          </figure>
+          <div>
+            <h3 style="color: white;">La Mia Prima Release in Produzione</h3>
+            <p>
+              <strong>Data:</strong> 15 Febbraio 2026<br>
+              <strong>Ora:</strong> 14:30 - 16:45
+            </p>
+            <p>
+              Questo è stato il momento più emozionante e significativo del mio stage. Dopo settimane di sviluppo, 
+              testing e preparazione, finalmente il mio codice è stato deployato in produzione. 
+              Non descriverò mai abbastanza l'adrenalina di quel momento!
+            </p>
+            <p>
+              <strong>Aspetto Tecnico:</strong> Ho implementato una nuova feature di autenticazione OAuth2 
+              utilizzando React Frontend e Laravel Backend. Il rilascio ha coinvolto:
+            </p>
+            <ul style="color: white; list-style-position: inside; line-height: 1.8;">
+              <li>Migrazione database con zero downtime</li>
+              <li>Test automatizzati eseguiti con 98% coverage</li>
+              <li>Monitoring e health checks configurati</li>
+              <li>Blue-Green deployment per sicurezza</li>
+            </ul>
+            <p>
+              <strong>Aspetto Formativo:</strong> Ho imparato che il vero lavoro inizia dopo il deployment. 
+              Durante le 2 ore successive, ho monitorato i log, risolto alcuni bug minori su richiesta 
+              del tutor e risposto alle domande del team di supporto. Questo mi ha insegnato l'importanza 
+              della responsabilità nel mettere codice in produzione.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         SEZIONE 2: RACCONTO SETTIMANALE
+         6 card con una foto per settimana dello stage
+         ================================================ -->
+    <!-- Week by Week Experience -->
+    <section>
+      <h2>Il Racconto Settimanale</h2>
+
+      <div class="card-container">
+        <div class="card">
+          <h3>📅 Settimana 1: Arrivo</h3>
+          <p>
+            Il primo impatto è stato entusiasmante. Ricevuta un'accoglienza dal tutor aziendale,
+            ci hanno mostrato dopo potevamo mettere le nostre cose e subito dopo abbiamo iniziato a lavorare
+            su un progetto di manutenzione per la strttura dell'azienda.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>📅 Settimana 2: Conclusione e Riflessi</h3>
+          <p>
+            Man mano che lo stage si conclude, sto iniziando veramente a pensare che rimanere li a lavorare per un periodo
+            cosi breve sia stato meglio di quando andavo a scuola. 
+            In quest'ultima settimana sono stato spostato in segreteria, dove ho potuto aiurare a risolvere dei dubbi su alcuni
+            certificati e documenti che mancavano o che erano scaduiti.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         SEZIONE 3: CONCLUSIONE PERSONALE
+         Card di conclusione con riflessioni finali
+         ================================================ -->
+    <!-- Final Thoughts -->
+    <section>
+      <h2>Conclusione Personale</h2>
+      <div class="card" style="max-width: 800px; margin: 2rem auto; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+        <p>
+          Questo stage è stato un'esperienza trasformativa. Non solo ho acquisito competenze tecniche 
+          che potranno fare la differenza nella mia carriera, ma ho anche imparato molto su myself - 
+          su come lavoro meglio con il team, su come gestisco lo stress di deadline, su quali aree 
+          dell'informatica mi appassionano davvero.
+        </p>
+        <p>
+          Tornando a scuola, sono infinitamente grato agli insegnanti che mi hanno preparato per 
+          questa esperienza e ai colleghi di stage della mia classe che hanno affrontato sfide simili 
+          in altre aziende. Siamo fortunati ad avere questa opportunità.
+        </p>
+        <p>
+          Se dovessi dare un consiglio a uno studente che inizia lo stage domani: sii umile, 
+          fai domande, prendi appunti, vedi il lavoro come un'opportunità di apprendimento continuo 
+          e goditi il viaggio. Perché è proprio il viaggio che crea i migliori ricordi.
+        </p>
+        <p style="text-align: right; font-style: italic;">
+          — Il tuo cronista dello stage 📝
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================================================
+       FOOTER
+       ================================================ -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>🏫 Scuola</h4>
+        <p><strong>ITCS Erasmo da Rotterdam</strong></p>
+        <p>Via Claudio Varalli, 24<br>Bollate (MI)</p>
+        <a href="https://www.itcserasmo.it/" target="_blank">Visita il sito</a>
+      </div>
+      
+      <div class="footer-section">
+        <h4>👨‍🏫 Insegnanti</h4>
+        <p><strong>TPSIT</strong></p>
+        <p>Prof. Mammoliti<br>Prof. Alessio</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4>📋 Progetto</h4>
+        <p>Esperienza di Stage PCTO</p>
+        <a href="https://www.sgsport.it/" target="_blank" style="text-align: left; display: block;">SG.Sport Arese</a>
+        <p>a.s. 2025/2026</p>
+      </div>
+    </div>
+    
+    <div class="footer-divider"></div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 - Tutti i diritti riservati | Progetto realizzato con dedizione</p>
+    </div>
+  </footer>
+</body>
+</html>
